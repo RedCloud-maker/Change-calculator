@@ -1,0 +1,148 @@
+ @font-face {
+    font-family:'ZabalDEMO-bold';
+    src: url(ZabalDEMO-Bold.otf);
+ }
+
+ .change-calculator {
+   color: white;
+background-color: #EC2027;
+text-align: center;
+font-size: 25px;
+font-family:'ZabalDEMO-bold';
+ }
+
+ .total-cost {
+background-color:#EC2027;
+color:White;
+border-radius: 15px;
+border: none;
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+font-family:'ZabalDEMO-bold';
+margin: 0 auto;   /* centers the div itself */
+  display: flex;    /* switch from inline-flex to flex */
+  justify-content: center;
+  align-items: center;
+  width: fit-content; /* shrink to content size */
+}
+
+input::placeholder {
+  color: White;
+  font-family:'ZabalDEMO-bold';
+}
+
+.minus {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+ .minus-button {
+    background-color:#EC2027;
+color:White;
+cursor: pointer;
+display: block;
+margin: 0 auto;
+margin-bottom: 10px;
+ }
+
+ .amount-paid {
+background-color:#EC2027;
+color:White;
+border-radius: 15px;
+border: none;
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+font-family:'ZabalDEMO-bold';
+margin: 0 auto;   /* centers the div itself */
+  display: flex;    /* switch from inline-flex to flex */
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+ }
+  
+.change-return {
+    background-color:#EC2027;
+color:White;
+border-radius: 15px;
+border: none;
+padding-top: 15px;
+padding-bottom:15px;
+text-align: center;
+font-family:'ZabalDEMO-bold';
+margin: 0 auto;   /* centers the div itself */
+  display: flex;    /* switch from inline-flex to flex */
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.equals {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+.equals-button {
+   background-color:#EC2027;
+color:White;
+cursor: pointer;
+display: inline-flex;
+}
+
+.monopoly {
+   width: 600px;
+   display: block;
+   margin:0 auto;
+}
+
+
+.change {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.numeric-change {
+   background-color:#EC2027;
+color:White;
+border-radius: 15px;
+border: none;
+padding-top: 15px;
+padding-bottom:15px;
+text-align: center;
+font-family:'ZabalDEMO-bold';
+margin: 0 auto;   /* centers the div itself */
+  display: flex;    /* switch from inline-flex to flex */
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.change-breakdown {
+   background-color:#EC2027;
+color:White;
+border-radius: 15px;
+border: none;
+padding-top: 10px;
+padding-bottom:5px;
+text-align: center;
+font-family:'ZabalDEMO-bold';
+margin: 0 auto;   /* centers the div itself */
+  display: flex;    /* switch from inline-flex to flex */
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+
+
+body {
+background-color: #d2e5d2;
+}
